@@ -1,0 +1,28 @@
+Membaca dataset...
+
+==================================================
+LOGISTIC REGRESSION - Default
+==================================================
+Accuracy:  0.9421
+Precision: 0.9321
+Recall:    0.9190
+F1-Score:  0.9255
+
+Melakukan GridSearchCV untuk Logistic Regression...
+/Users/rizkyzeinadam/miniforge3/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 14 leaked semlock objects to clean up at shutdown
+  warnings.warn(
+/Users/rizkyzeinadam/miniforge3/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:314: UserWarning: resource_tracker: There appear to be 2 leaked folder objects to clean up at shutdown
+  warnings.warn(
+/Users/rizkyzeinadam/miniforge3/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:330: UserWarning: resource_tracker: /var/folders/85/9_h4j2gn643gs4r1zwkqr2h00000gn/T/joblib_memmapping_folder_45211_d76f248535024b5c83fac74329650f9c_d7027e5035144c3d9b8e9b4fd9078134: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(f"resource_tracker: {name}: {e!r}")
+/Users/rizkyzeinadam/miniforge3/lib/python3.10/site-packages/joblib/externals/loky/backend/resource_tracker.py:330: UserWarning: resource_tracker: /var/folders/85/9_h4j2gn643gs4r1zwkqr2h00000gn/T/joblib_memmapping_folder_45211_d76f248535024b5c83fac74329650f9c_e87b9a6b440349b781e16cc84e159e0b: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(f"resource_tracker: {name}: {e!r}")
+r': 'liblinear'}
+============================================================
+
+Perbandingan Default vs Tuned:
+                        Model  Accuracy  Precision   Recall  F1-Score
+Logistic Regression (Default)  0.942149   0.932143 0.919014  0.925532
+  Logistic Regression (Tuned)  0.938017   0.931408 0.908451  0.919786
+      Random Forest (Default)  0.920110   0.918519 0.873239  0.895307
+        Random Forest (Tuned)  0.913223   0.916981 0.855634  0.885246
